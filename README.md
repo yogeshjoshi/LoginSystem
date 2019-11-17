@@ -1,7 +1,7 @@
 # LoginSystem
 Email and Mobile Number based Login System
 
-<h3>Technology Stack Used</h3> -
+<h3>Technology Stack Used</h3> 
 
 <h2>Front End</h2> -  ReactJs, JavaScript and Redux 
 <h2>Back End</h2> -  Java and Spring Boot Framework
