@@ -1,20 +1,22 @@
 # LoginSystem
 Email and Mobile Number based Login System
 
-Technology Stack Used -
+<h3>Technology Stack Used</h3> -
 
-Fron End -  ReactJs, JavaScript and Redux 
-Back End -  Java and Spring Boot Framework
+<h2>Front End</h2> -  ReactJs, JavaScript and Redux 
+<h2>Back End</h2> -  Java and Spring Boot Framework
 Database Used - MongoDB
 
-How to run ?
+<i>How to run ?</i>
 
 Go to Project Hierarchy-> Login System->demo->
-Run Command - mvn clean install -DskipTests
+Run Command - <code>mvn clean install -DskipTests</code>
 
 Executable Jar will be formed at Location LoginSystem/demo/target
 Use this jar to directly run into command line 
-Command to execute --> java -jar "executable_jar_name"
+Command to execute --> <code>java -jar "<i>executable_jar_name</i>"</code>
 
+Please put your auth_token of SMS Provider in "<i>account.sms.auth_token</i>" (Key Present at application.Properties)
 SMS Provider Used for SMS - MSG91
-Please put your auth_token of SMS Provider in "account.sms.auth_token" (Key Present at application.Properties)
+Put frontEnd project under same hierarchy or change hierarchy in <i>pom</i> file.
+Front End Project Link - https://github.com/yogeshjoshi/LoginSystem-FrontEnd
